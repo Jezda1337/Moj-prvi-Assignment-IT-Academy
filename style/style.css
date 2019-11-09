@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('../images/slika-1.jpg');
+    background-repeat: no-repeat;
+    background-position: center center; 
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+    line-height: 90px;
+}
+
+.container > h1 {
+    color: rgb(214, 214, 214);
+    font-family: 'Indie Flower', cursive;
+    font-size: 70px;
+}
+  
+.container > h3 {
+    color: rgb(22, 17, 17);
+    font-size: 34px;
+    font-family: 'Permanent Marker', cursive;
+    font-weight: 300;
+    letter-spacing: 4px;
+}
